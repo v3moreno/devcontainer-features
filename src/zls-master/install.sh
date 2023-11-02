@@ -34,9 +34,9 @@ mkdir -p /usr/local/lib/zls
 git clone https://github.com/zigtools/zls
 cd zls
 zig build -Doptimize=ReleaseSafe
-mv zig-out/bin/zls /usr/local/lib/zls
-chmod +x /usr/local/lib/zls
-ln -s /usr/local/lib/zls /usr/local/bin/zls
+mv zig-out/bin/zls /usr/local/lib/zls/zls
+chmod +x /usr/local/lib/zls/zls
+ln -s /usr/local/lib/zls/zls /usr/local/bin/zls
 
 # Clean up
 cd ..
