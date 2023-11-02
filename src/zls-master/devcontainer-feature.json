@@ -1,0 +1,18 @@
+{
+    "name": "Zigtools ZLS master",
+    "id": "zls-master",
+    "version": "1.0.0",
+    "description": "The Zig Language Server (zls) is a tool that implements Microsoft's Language Server Protocol for Zig in Zig.",
+    "documentationURL": "https://github.com/zigtools/zls/wiki",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "0.11.0",
+                "0.10.0"
+            ],
+            "default": "0.11.0",
+            "description": "Select the ZLS version that matches you Zig version."
+        }
+    }
+}
