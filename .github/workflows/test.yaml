@@ -14,8 +14,6 @@ jobs:
       matrix:
         features:
           - zig-master
-          - zls
-          - zls-master
         baseImage:
           - debian:latest
           - ubuntu:latest
