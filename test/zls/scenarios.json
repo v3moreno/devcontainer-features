@@ -2,7 +2,7 @@
   "test": {
     "image": "mcr.microsoft.com/devcontainers/base:debian",
     "features": {
-      "zls": {}
+      "ghcr.io/v3moreno/devcontainer-features/zls:1": {}
     }
   }
 }
