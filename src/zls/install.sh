@@ -24,7 +24,7 @@ check_packages() {
 }
 
 # make sure we have wget
-check_packages wget
+check_packages ca-certificates wget jq
 
 # remove existing instalations
 rm -rf /usr/local/lib/zls

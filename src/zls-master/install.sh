@@ -22,7 +22,7 @@ check_packages() {
 }
 
 # make sure we have wget
-check_packages git
+check_packages git ca-certificates jq
 
 # remove existing instalations
 rm -rf /usr/local/lib/zls
