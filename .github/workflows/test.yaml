@@ -14,9 +14,9 @@ jobs:
       matrix:
         features:
           - zig-master
+          - cudagl
         baseImage:
-          - debian:latest
-          - ubuntu:latest
+          - mcr.microsoft.com/devcontainers/base:debian
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
       - uses: actions/checkout@v3
@@ -36,6 +36,7 @@ jobs:
           - zig-master
           - zls
           - zls-master
+          - cudagl
     steps:
       - uses: actions/checkout@v3
 
