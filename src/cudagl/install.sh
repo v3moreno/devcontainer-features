@@ -93,10 +93,7 @@ if [ "$INSTALL_TOOLKIT" = "true" ]; then
 fi
 
 # OpenGL with libglvnd
-check_packages libglvnd-dev libglvnd-dev:i386 \
-    libgl1-mesa-dev libgl1-mesa-dev:i386 \
-    libegl1-mesa-dev libegl1-mesa-dev:i386 \
-    libgles2-mesa-dev libgles2-mesa-dev:i386
+check_packages libglvnd-dev libgl1-mesa-dev libegl1-mesa-dev libgles2-mesa-dev
 
 # Clean up
 rm -rf /var/lib/apt/lists/*
