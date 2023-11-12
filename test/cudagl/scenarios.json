@@ -1,0 +1,24 @@
+{
+    "install_all_options": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "ghcr.io/v3moreno/devcontainer-features/cudagl:1": {
+                "installCudnn": true,
+                "installCudnnDev": true,
+                "installNvtx": true,
+                "installToolkit": true
+            }
+        }
+    },
+    "install_cudnn_nvxt_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "ghcr.io/v3moreno/devcontainer-features/cudagl:1": {
+                "installCudnn": true,
+                "installNvtx": true,
+                "cudaVersion": "12.2",
+                "cudnnVersion": "8.9.6.50"
+            }
+        }
+    }
+}
