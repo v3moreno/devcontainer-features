@@ -1,3 +1,5 @@
+[![CI - Test Features](https://github.com/v3moreno/devcontainer-features/actions/workflows/test.yaml/badge.svg)](https://github.com/v3moreno/devcontainer-features/actions/workflows/test.yaml)
+
 # devcontainer-features
 Dev container feature to install:
 - Zig (including master build from zigland)
