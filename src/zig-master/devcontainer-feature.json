@@ -3,7 +3,7 @@
     "id": "zig-master",
     "version": "1.0.0",
     "description": "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal and reusable software.",
-    "documentationURL": "https://github.com/devcontainers-contrib/features/tree/main/src/zig",
+    "documentationURL": "https://github.com/v3moreno/devcontainer-features/tree/main/src/zig-master",
     "options": {
         "version": {
             "type": "string",

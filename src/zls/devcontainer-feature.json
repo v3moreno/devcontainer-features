@@ -3,7 +3,7 @@
     "id": "zls",
     "version": "1.0.1",
     "description": "The Zig Language Server (zls) is a tool that implements Microsoft's Language Server Protocol for Zig in Zig.",
-    "documentationURL": "https://github.com/zigtools/zls/wiki",
+    "documentationURL": "https://github.com/v3moreno/devcontainer-features/tree/main/src/zls",
     "options": {
         "version": {
             "type": "string",

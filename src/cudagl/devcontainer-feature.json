@@ -3,7 +3,7 @@
   "id": "cudagl",
   "version": "1.0.1",
   "description": "CUDA is a parallel computing platform and programming model invented by NVIDIA. CUDAGL, extends the CUDA feature by adding support for OpenGL through libglvnd.",
-  "documentationURL": "https://github.com/devcontainers-contrib/features/tree/main/src/zig",
+  "documentationURL": "https://github.com/v3moreno/devcontainer-features/tree/main/src/cudagl",
   "options": {
     "installCudnn": {
       "type": "boolean",
